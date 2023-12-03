@@ -3,7 +3,7 @@
  
 
 <p align="center">
-<img src="./images/icons/team-logo.jpg"/>
+<img src="./images/icons/team-logo.jpg"/>s
 </p>
 
  
@@ -56,9 +56,9 @@
 
  
 <p align="left" gap="10px">
-<a href="https://www.javascript.com/"><img src="./repo/JavaScript-logo.png" alt="javascript" width=48px /></a>
+<a href="https://www.javascript.com/"><img src="./images/icons/JavaScript-logo.png" alt="javascript" width=48px /></a>
 <a href="#"><img src="./images/icons/html logo.png" alt="html" width=48px /></a>
-<a href="#"><img src="./repo/sass-logo.png" width=52px /></a>
+<a href="#"><img src="./images/icons/css-logo.png" width=52px /></a>
 </p>
 
 
