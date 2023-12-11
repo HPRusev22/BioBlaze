@@ -74,6 +74,46 @@ h2 {
     color: #ccc; 
 }
 
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 4.65vw;
+    background-color: #114E14; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.footer_content {
+    width: 95vw; 
+    display: flex; 
+    margin: auto; 
+    justify-content: space-between; 
+}
+
+.footer_text {
+    font-size: 1.425vw; 
+    color: white;
+    font-weight: 400; 
+    display: flex;
+    margin: auto 0; 
+}
+
+.footer_images {
+    width: 15vw; 
+    justify-content: space-between; 
+    display: flex;
+}
+
+.footer_img {
+    height: 3vw; 
+    width: auto; 
+    margin: auto 0; 
+    cursor: pointer;
+}
+
 /*HOME-PAGE*/
 
 .welcome {
@@ -302,132 +342,84 @@ h2 {
     background-color: rgba(255, 255, 255, 0.75); 
 }
 
-/* FOOTER */
 
-.footer {
-    width: 100%;
-    height: 4.65vw;
-    background-color: #114E14; 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-}
-
-
-.footer_content {
-    width: 95vw; 
-    display: flex; 
-    margin: auto; 
-    justify-content: space-between; 
-}
-
-.footer_text {
-    font-size: 1.425vw; 
-    color: white;
-    font-weight: 400; 
-    display: flex;
-    margin: auto 0; 
-}
-
-.footer_images {
-    width: 15vw; 
-    justify-content: space-between; 
-    display: flex;
-}
-
-.footer_img {
-    height: 3vw; 
-    width: auto; 
-    margin: auto 0; 
-    cursor: pointer;
-}
 
 /*Comments*/
 
 .comments_section {
-    background-color: #76C77E; /* Background color for the comments container */
-    height: 100vh; /* Set the height of the comments container to full viewport height */
-    display: flex; /* Display the container as a flex container */
-    align-items: center; /* Center align items vertically */
-    justify-content: center; /* Center align items horizontally */
+    background-color: #76C77E; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .comments_section form {
-    align-items: center; /* Center align form items vertically */
-    width: 40vw; /* Set the width of the form to 40% of the viewport width */
-    height: 30vw; /* Set the height of the form to 30% of the viewport width */
-    display: flex; /* Display the container as a flex container */
-    flex-direction: column; /* Stack form elements vertically */
-    justify-content: space-around; /* Distribute space evenly between form elements */
+    align-items: center; 
+    width: 40vw; 
+    height: 30vw; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
 }
 
 .comments_section h1 {
-    color: white; /* Set the color of the heading to white */
-    font-size: 2.3vw; /* Set the font size of the heading relative to the viewport width */
-    text-align: center; /* Center align the heading text */
+    color: white; 
+    font-size: 2.3vw; 
+    text-align: center; 
 }
 
 .input_section input, textarea {
-    border-radius: .1vw; /* Set the border radius of input fields and textareas */
-    outline: none; /* Remove outline on focus */
-    font-size: 1vw; /* Set the font size of input fields and textareas relative to the viewport width */
-    font-weight: 600; /* Set the font weight to 600 (semi-bold) */
-    font-family: 'Montserrat', sans-serif; /* Use the 'Montserrat' font family */
-    border: .25vw solid #181818; /* Set the border style and color for input fields and textareas */
-    padding: .5vw; /* Add padding to input fields and textareas */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    background-color: #326236; /* Set the background color for input fields and textareas */
-    color: white; /* Set the text color for input fields and textareas */
+    border-radius: .1vw;
+    outline: none; 
+    font-size: 1vw; 
+    font-weight: 600; 
+    font-family: 'Montserrat', sans-serif; 
+    border: .25vw solid #181818; 
+    padding: .5vw; 
+    box-sizing: border-box; 
+    background-color: #326236; 
+    color: white; 
 }
 
 .input_section input:focus, textarea:focus {
-    outline: .15vw solid #00000063; /* Set the outline style and color on focus for input fields and textareas */
+    outline: .15vw solid #00000063; 
 }
 
 .input_section input {
-    width: 40vw; /* Set the width of input fields to 40% of the viewport width */
-    height: 3vw; /* Set the height of input fields relative to the viewport width */
+    width: 40vw; 
+    height: 3vw; 
 }
 
 .input_section textarea {
-    resize: none; /* Disable resizing of the textarea */
-    width: 40vw; /* Set the width of the textarea to 40% of the viewport width */
-    height: 12vw; /* Set the height of the textarea relative to the viewport width */
+    resize: none; 
+    width: 40vw; 
+    height: 12vw; 
 }
 
 .comments_section button {
-    border-radius: .2vw; /* Set the border radius of the button */
-    color: #fff; /* Set the text color of the button to white */
-    font-size: 1.3vw; /* Set the font size of the button relative to the viewport width */
-    width: 7vw; /* Set the width of the button relative to the viewport width */
-    height: 3vw; /* Set the height of the button relative to the viewport width */
-    border: none; /* Remove the border of the button */
-    background-color: #0C0B0B; /* Set the background color of the button */
-    transition: .2s; /* Add transition effect with a duration of 0.2 seconds */
+    border-radius: .2vw; 
+    color: #fff;
+    font-size: 1.3vw; 
+    width: 7vw; 
+    height: 3vw; 
+    border: none; 
+    background-color: #0C0B0B; 
+    transition: .2s; 
 }
 
 .comments_section button:hover {
-    background-color: #161616; /* Change the background color of the button on hover */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
+    background-color: #161616; 
+    cursor: pointer; 
 }
 
-.about_section{
-    background-color:#326236;
-    display: flex; /* Display the container as a flex container */
-    align-items: center; /* Center align the items vertically */
-    justify-content: center; /* Center align the items horizontally */
-    height: 90vh;
-    width: 95vh;
-    margin-left: 3vw;
-
-}
 
 .about_section
 {
     background-color:#326236;
-    display: flex; /* Display the container as a flex container */
-    align-items: center; /* Center align the items vertically */
-    justify-content: center; /* Center align the items horizontally */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     height: 90vh;
     width: 80vh;
     margin-left: 3vw;
@@ -436,17 +428,58 @@ h2 {
 }
 
 .section_text{
-    margin-bottom;
+    margin-bottom: 30vh;
 
     margin-left: 30vw;
 
 }
 
 .comments_section img{
-    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
-    width: 40vw; /* Set the width of the image to 40% of the viewport width */
+    border-radius: .5vw; 
+    width: 40vw; 
     height: 25vw;
 
 }
 
+/*CONTACT-US*/
+
+.contacts{
+    width: 70vw; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.contact
+{
+    width: 10vw; 
+    height: 27vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    text-align: center;
+    
+}
+
+.contacts_image 
+{
+    width: 12vw;
+    min-width: 12vw; 
+    min-height: 12vw; 
+    object-fit: cover; 
+}
+
+.contacts_text
+{
+    opacity: 0; 
+    position: absolute; 
+    height: 15vw; 
+    width: 12vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+ 
+}
 
