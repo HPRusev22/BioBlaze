@@ -21,19 +21,19 @@ h1
     font-family: 'Montserrat', sans-serif; 
     font-weight: 800;
     font-size: 2.8vw;
+
 }
 
 /*TEXT*/
-h2 
-{
+h2 {
     font-family: 'Montserrat', sans-serif; 
-    font-weight: 600;
-    font-size: 1.5vw;
+    font-weight: 600; 
+    font-size: 1.5vw; 
 }
 
 
 
-/*!HEADER!*/
+/*HEADER*/
 .header 
 {
     max-width: 100vw;
@@ -41,12 +41,14 @@ h2
     height: 3.5vw; 
     position: fixed; 
     width: 100vw; 
-    background-color: #114E14; 
+    background-color: rgba(17, 78, 20, 0.55);
+
     display: flex; 
     justify-content: center; 
     align-items: center; 
 }
 
+/*NAVIGATION BAR*/
 .nav 
 {
     display: flex; 
@@ -72,7 +74,166 @@ h2
     color: #ccc; 
 }
 
+/*HOME-PAGE*/
+
+.welcome {
+    max-width: 100%; 
+    width: 100vw; 
+    height: 95vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 0;
+}
+
+.heading {
+    font-family: 'Anonymous Pro', sans-serif; 
+    font-weight: bold;
+    width: 200vw; 
+    height: 20vw; 
+    text-align: left; 
+    margin-left: 15vw; 
+    font-size: 4vw; 
+    color: black; 
+    white-space: pre-line; 
+    display: inline-block;
+}
+
+/*Content 1 */
+
+.content1_container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #114E14; 
+    height: 100vh; 
+}
+
+.content1 {
+    width: 80vw; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.content1_text {
+    color: #000; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around; 
+    text-align: left; 
+    width: 35vw; 
+}
+
+.content1_container img {
+    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
+    object-fit: cover; /* Scale the image to cover the container while preserving its aspect ratio */
+    width: 40vw; /* Set the width of the image to 40% of the viewport width */
+    height: 25vw; /* Set the height of the image to 25% of the viewport width */
+}
+
+/* CONTENT 2 */
+
+.content2_container {
+    display: flex; /* Display the container as a flex container */
+    align-items: center; /* Center align the items vertically */
+    justify-content: center; /* Center align the items horizontally */
+    background-color: 
+    #76C77E; /* Set the background color to a dark gray */
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+
+.content2 {
+    width: 80vw; /* Set the width of the content container to 80% of the viewport width */
+    display: flex; /* Display the content container as a flex container */
+    flex-direction: row-reverse; /* Arrange the child elements in a reversed row */
+    justify-content: space-between; /* Distribute the child elements with equal space between them */
+}
+
+.content2_text {
+    color: #fff; /* Set the text color to white */
+    display: flex; /* Display the text container as a flex container */
+    flex-direction: column; /* Arrange the child elements in a column */
+    justify-content: space-around; /* Distribute the child elements with equal space around them */
+    text-align: left; /* Align the text to the left */
+    width: 35vw; /* Set the width of the text container to 35% of the viewport width */
+}
+
+.content2_container img {
+    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
+    object-fit: cover; /* Scale the image to cover the container while preserving its aspect ratio */
+    width: 40vw; /* Set the width of the image to 40% of the viewport width */
+    height: 25vw; /* Set the height of the image to 25% of the viewport width */
+}
+
+/* CONTENT 3 */
+
+.content3_container {
+    display: flex; /* Display the container as a flex container */
+    align-items: center; /* Center align the items vertically */
+    justify-content: center; /* Center align the items horizontally */
+    background-color: #114E14; /* Set the background color to a light gray */
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+
+.content3 {
+    width: 80vw; /* Set the width of the content container to 80% of the viewport width */
+    display: flex; /* Display the content container as a flex container */
+    flex-direction: row; /* Arrange the child elements in a row */
+    justify-content: space-between; /* Distribute the child elements with equal space between them */
+}
+
+.content3_text {
+    color: #000; /* Set the text color to black */
+    display: flex; /* Display the text container as a flex container */
+    flex-direction: column; /* Arrange the child elements in a column */
+    justify-content: space-around; /* Distribute the child elements with equal space around them */
+    text-align: left; /* Align the text to the left */
+    width: 35.8vw; /* Set the width of the text container to 35% of the viewport width */
+}
+
+.content3_container img {
+    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
+    object-fit: cover; /* Scale the image to cover the container while preserving its aspect ratio */
+    width: 40vw; /* Set the width of the image to 40% of the viewport width */
+    height: 25vw; 
+}
+
+/*Content 4*/
+
+.content4_container {
+    display: flex; /* Display the container as a flex container */
+    align-items: center; /* Center align the items vertically */
+    justify-content: center; /* Center align the items horizontally */
+    background-color: #76C77E; /* Set the background color to a dark gray */
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+
+.content4 {
+    width: 80vw; /* Set the width of the content container to 80% of the viewport width */
+    display: flex; /* Display the content container as a flex container */
+    flex-direction: row-reverse; /* Arrange the child elements in a reversed row */
+    justify-content: space-between; /* Distribute the child elements with equal space between them */
+}
+
+.content4_text {
+    color: #fff; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    text-align: left; 
+    width: 35vw; 
+}
+
+.content4_container img {
+    border-radius: .5vw; 
+    object-fit: cover; 
+    width: 40vw; 
+    height: 25vw; 
+}
+
 /* ABOUT US */
+
 .about-us_content 
 { 
     height: 100vh; 
@@ -142,6 +303,7 @@ h2
 }
 
 /* FOOTER */
+
 .footer {
     width: 100%;
     height: 4.65vw;
@@ -179,4 +341,112 @@ h2
     margin: auto 0; 
     cursor: pointer;
 }
+
+/*Comments*/
+
+.comments_section {
+    background-color: #76C77E; /* Background color for the comments container */
+    height: 100vh; /* Set the height of the comments container to full viewport height */
+    display: flex; /* Display the container as a flex container */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+}
+
+.comments_section form {
+    align-items: center; /* Center align form items vertically */
+    width: 40vw; /* Set the width of the form to 40% of the viewport width */
+    height: 30vw; /* Set the height of the form to 30% of the viewport width */
+    display: flex; /* Display the container as a flex container */
+    flex-direction: column; /* Stack form elements vertically */
+    justify-content: space-around; /* Distribute space evenly between form elements */
+}
+
+.comments_section h1 {
+    color: white; /* Set the color of the heading to white */
+    font-size: 2.3vw; /* Set the font size of the heading relative to the viewport width */
+    text-align: center; /* Center align the heading text */
+}
+
+.input_section input, textarea {
+    border-radius: .1vw; /* Set the border radius of input fields and textareas */
+    outline: none; /* Remove outline on focus */
+    font-size: 1vw; /* Set the font size of input fields and textareas relative to the viewport width */
+    font-weight: 600; /* Set the font weight to 600 (semi-bold) */
+    font-family: 'Montserrat', sans-serif; /* Use the 'Montserrat' font family */
+    border: .25vw solid #181818; /* Set the border style and color for input fields and textareas */
+    padding: .5vw; /* Add padding to input fields and textareas */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: #326236; /* Set the background color for input fields and textareas */
+    color: white; /* Set the text color for input fields and textareas */
+}
+
+.input_section input:focus, textarea:focus {
+    outline: .15vw solid #00000063; /* Set the outline style and color on focus for input fields and textareas */
+}
+
+.input_section input {
+    width: 40vw; /* Set the width of input fields to 40% of the viewport width */
+    height: 3vw; /* Set the height of input fields relative to the viewport width */
+}
+
+.input_section textarea {
+    resize: none; /* Disable resizing of the textarea */
+    width: 40vw; /* Set the width of the textarea to 40% of the viewport width */
+    height: 12vw; /* Set the height of the textarea relative to the viewport width */
+}
+
+.comments_section button {
+    border-radius: .2vw; /* Set the border radius of the button */
+    color: #fff; /* Set the text color of the button to white */
+    font-size: 1.3vw; /* Set the font size of the button relative to the viewport width */
+    width: 7vw; /* Set the width of the button relative to the viewport width */
+    height: 3vw; /* Set the height of the button relative to the viewport width */
+    border: none; /* Remove the border of the button */
+    background-color: #0C0B0B; /* Set the background color of the button */
+    transition: .2s; /* Add transition effect with a duration of 0.2 seconds */
+}
+
+.comments_section button:hover {
+    background-color: #161616; /* Change the background color of the button on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.about_section{
+    background-color:#326236;
+    display: flex; /* Display the container as a flex container */
+    align-items: center; /* Center align the items vertically */
+    justify-content: center; /* Center align the items horizontally */
+    height: 90vh;
+    width: 95vh;
+    margin-left: 3vw;
+
+}
+
+.about_section
+{
+    background-color:#326236;
+    display: flex; /* Display the container as a flex container */
+    align-items: center; /* Center align the items vertically */
+    justify-content: center; /* Center align the items horizontally */
+    height: 90vh;
+    width: 80vh;
+    margin-left: 3vw;
+    text-decoration: bold;
+    
+}
+
+.section_text{
+    margin-bottom;
+
+    margin-left: 30vw;
+
+}
+
+.comments_section img{
+    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
+    width: 40vw; /* Set the width of the image to 40% of the viewport width */
+    height: 25vw;
+
+}
+
 
