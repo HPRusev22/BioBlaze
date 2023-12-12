@@ -2,7 +2,9 @@
 
 html {
     height: 100%; 
-    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: auto;
+
 }
 
 /*BODY*/
@@ -90,7 +92,8 @@ h2 {
     width: 95vw; 
     display: flex; 
     margin: auto; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    position: bottom 0; 
 }
 
 .footer_text {
@@ -277,12 +280,12 @@ h2 {
 
 .about-us_content 
 { 
-    height: 80vh; 
+    height: 95vh; 
     width: 100vw; 
     display: flex; 
     flex-direction: column;  
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
 }
 
 .about-us-text
@@ -431,18 +434,23 @@ h2 {
 }
 
 .section_text{
-    margin-bottom: 30vh;
+    margin-bottom: 50vh;
     height: 10px;
     margin-left: 30vw;
+    justify-content: center;
+
 
 }
 
 .comments_section img{
     border-radius: 0.5vw;
-    width: 30vw; 
-    height: 25vw;
-    padding-bottom: 10px;;
-
+    margin-bottom: 30vh;
+    width: 40vw; 
+    height: 30vh;
+    padding-bottom: 10px;
+    margin-top: 60vh;
+    margin-right: 30vw;
+    
 }
 
 /*CONTACT-US*/
@@ -467,7 +475,7 @@ h2 {
     margin-left:8vw;
 }
 .container{
-    height:100vh;
+    height:110vh;
     width:30vw;
     background-color: #fff;
     padding: 10px;
