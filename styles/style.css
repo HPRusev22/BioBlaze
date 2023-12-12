@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); /*Font for the website*/
 
 html {
-    overflow-x: hidden; 
     height: 100%; 
-    scrollbar-width: auto; 
+    overflow: scroll;
 }
 
 /*BODY*/
@@ -118,6 +117,7 @@ h2 {
 /*HOME-PAGE*/
 
 .welcome {
+    
     max-width: 100%; 
     width: 100vw; 
     height: 95vh; 
@@ -167,10 +167,10 @@ h2 {
 }
 
 .content1_container img {
-    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
-    object-fit: cover; /* Scale the image to cover the container while preserving its aspect ratio */
-    width: 40vw; /* Set the width of the image to 40% of the viewport width */
-    height: 25vw; /* Set the height of the image to 25% of the viewport width */
+    border-radius: .5vw; 
+    object-fit: cover; 
+    width: 40vw; 
+    height: 25vw; 
 }
 
 /* CONTENT 2 */
@@ -277,11 +277,10 @@ h2 {
 
 .about-us_content 
 { 
-    height: 100vh; 
+    height: 80vh; 
     width: 100vw; 
     display: flex; 
-    flex-direction: column; 
-    gap: 3vh; 
+    flex-direction: column;  
     justify-content: center; 
     align-items: center; 
 }
@@ -306,6 +305,7 @@ h2 {
     flex-direction: column; 
     justify-content: space-between; 
     text-align: center; 
+    
 }
 
 .programmer_image 
@@ -352,7 +352,8 @@ h2 {
     height: 100vh; 
     display: flex; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;
+
 }
 
 .comments_section form {
@@ -421,7 +422,8 @@ h2 {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    height: 90vh;
+    margin-top: 10vh;
+    height: 70vh;
     width: 80vh;
     margin-left: 3vw;
     text-decoration: bold;
@@ -430,15 +432,16 @@ h2 {
 
 .section_text{
     margin-bottom: 30vh;
-
+    height: 10px;
     margin-left: 30vw;
 
 }
 
 .comments_section img{
-    border-radius: .5vw; 
-    width: 40vw; 
+    border-radius: 0.5vw;
+    width: 30vw; 
     height: 25vw;
+    padding-bottom: 10px;;
 
 }
 
