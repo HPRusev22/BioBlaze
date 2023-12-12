@@ -179,67 +179,66 @@ h2 {
 /* CONTENT 2 */
 
 .content2_container {
-    display: flex; /* Display the container as a flex container */
-    align-items: center; /* Center align the items vertically */
-    justify-content: center; /* Center align the items horizontally */
-    background-color: 
-    #76C77E; /* Set the background color to a dark gray */
-    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #76C77E; 
+    height: 100vh; 
 }
 
 .content2 {
-    width: 80vw; /* Set the width of the content container to 80% of the viewport width */
-    display: flex; /* Display the content container as a flex container */
-    flex-direction: row-reverse; /* Arrange the child elements in a reversed row */
-    justify-content: space-between; /* Distribute the child elements with equal space between them */
+    width: 80vw; 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .content2_text {
-    color: #fff; /* Set the text color to white */
-    display: flex; /* Display the text container as a flex container */
-    flex-direction: column; /* Arrange the child elements in a column */
-    justify-content: space-around; /* Distribute the child elements with equal space around them */
-    text-align: left; /* Align the text to the left */
-    width: 35vw; /* Set the width of the text container to 35% of the viewport width */
+    color: #fff; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    text-align: left; 
+    width: 35vw; 
 }
 
 .content2_container img {
-    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
-    object-fit: cover; /* Scale the image to cover the container while preserving its aspect ratio */
-    width: 40vw; /* Set the width of the image to 40% of the viewport width */
-    height: 25vw; /* Set the height of the image to 25% of the viewport width */
+    border-radius: .5vw; 
+    object-fit: cover; 
+    width: 40vw; 
+    height: 25vw; 
 }
 
 /* CONTENT 3 */
 
 .content3_container {
-    display: flex; /* Display the container as a flex container */
-    align-items: center; /* Center align the items vertically */
-    justify-content: center; /* Center align the items horizontally */
-    background-color: #114E14; /* Set the background color to a light gray */
-    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #114E14; 
+    height: 100vh; 
 }
 
 .content3 {
-    width: 80vw; /* Set the width of the content container to 80% of the viewport width */
-    display: flex; /* Display the content container as a flex container */
-    flex-direction: row; /* Arrange the child elements in a row */
-    justify-content: space-between; /* Distribute the child elements with equal space between them */
+    width: 80vw; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
 }
 
 .content3_text {
-    color: #000; /* Set the text color to black */
-    display: flex; /* Display the text container as a flex container */
-    flex-direction: column; /* Arrange the child elements in a column */
-    justify-content: space-around; /* Distribute the child elements with equal space around them */
-    text-align: left; /* Align the text to the left */
-    width: 35.8vw; /* Set the width of the text container to 35% of the viewport width */
+    color: #000; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    text-align: left; 
+    width: 35.8vw;
 }
 
 .content3_container img {
-    border-radius: .5vw; /* Set the border radius of the image to make it slightly rounded */
-    object-fit: cover; /* Scale the image to cover the container while preserving its aspect ratio */
-    width: 40vw; /* Set the width of the image to 40% of the viewport width */
+    border-radius: .5vw; 
+    object-fit: cover;
+    width: 40vw;
     height: 25vw; 
 }
 
@@ -421,7 +420,7 @@ h2 {
 
 .about_section
 {
-    background-color: #114E14;
+    background-color: #326236;
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -436,7 +435,7 @@ h2 {
 .comments_section img{
     border-radius: 0.5vw;
     height: 40vh;
-    margin-top: 10vh;
+    margin-bottom: 0.5vh;
 
     align-items: center;
     justify-content: center;
