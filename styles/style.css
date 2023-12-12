@@ -70,6 +70,7 @@ h2 {
     transition: .2s; 
 }
 
+/*NAVIGATION BAR ANIMATIONS*/
 .nav a:hover 
 {
     transform: translateY(2%); 
@@ -96,6 +97,7 @@ h2 {
     position: absolute bottom 0; 
 }
 
+/*FOOTER TEXT*/
 .footer_text {
     font-size: 1.425vw; 
     color: white;
@@ -104,6 +106,7 @@ h2 {
     margin: auto 0; 
 }
 
+/*FOOTER IMAGES*/
 .footer_images {
     width: 15vw; 
     justify-content: space-between; 
@@ -168,7 +171,7 @@ h2 {
     text-align: left; 
     width: 35vw; 
 }
-
+/*Content 1 image*/
 .content1_container img {
     border-radius: .5vw; 
     object-fit: cover; 
@@ -201,7 +204,7 @@ h2 {
     text-align: left; 
     width: 35vw; 
 }
-
+/*Content 2 image*/
 .content2_container img {
     border-radius: .5vw; 
     object-fit: cover; 
@@ -234,7 +237,7 @@ h2 {
     text-align: left; 
     width: 35.8vw;
 }
-
+/*Content 3 image*/
 .content3_container img {
     border-radius: .5vw; 
     object-fit: cover;
@@ -245,18 +248,18 @@ h2 {
 /*Content 4*/
 
 .content4_container {
-    display: flex; /* Display the container as a flex container */
-    align-items: center; /* Center align the items vertically */
-    justify-content: center; /* Center align the items horizontally */
-    background-color: #76C77E; /* Set the background color to a dark gray */
-    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #76C77E; 
+    height: 100vh; 
 }
 
 .content4 {
-    width: 80vw; /* Set the width of the content container to 80% of the viewport width */
-    display: flex; /* Display the content container as a flex container */
-    flex-direction: row-reverse; /* Arrange the child elements in a reversed row */
-    justify-content: space-between; /* Distribute the child elements with equal space between them */
+    width: 80vw; 
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
 }
 
 .content4_text {
@@ -267,7 +270,7 @@ h2 {
     text-align: left; 
     width: 35vw; 
 }
-
+/*Content 4 image*/
 .content4_container img {
     border-radius: .5vw; 
     object-fit: cover; 
@@ -286,12 +289,12 @@ h2 {
     justify-content: center; 
     align-items: center;
 }
-
+/*About us text*/
 .about-us-text
 {
     color: #fff; 
 }
-
+/*For programmers card*/
 .programmers{
     width: 70vw; 
     display: flex;
@@ -309,7 +312,7 @@ h2 {
     text-align: center; 
     
 }
-
+/*Programmer image*/
 .programmer_image 
 {
     width: 12vw;
@@ -317,7 +320,7 @@ h2 {
     min-height: 15vw; 
     object-fit: cover; 
 }
-
+/*Programmer name*/
 .programmer_name {
     margin-top: 2vh; 
     width: 10vw;
@@ -325,7 +328,7 @@ h2 {
     font-size: 2vw; 
     font-weight: 600; 
 }
-
+/*Programmer role*/
 .programmer_role 
 {
     opacity: 0; 
@@ -338,14 +341,12 @@ h2 {
     text-align: center; 
     transition: .2s; 
 }
-
+/*Programmer role animation*/
 .programmer_role:hover 
 {
     opacity: 1; 
     background-color: rgba(255, 255, 255, 0.75); 
 }
-
-
 
 /*Comments*/
 
@@ -431,7 +432,7 @@ h2 {
     text-decoration: bold;
     
 }
-
+/*COMMENTS PAGE IMAGE*/
 .comments_section img{
     border-radius: 0.5vw;
     height: 40vh;
@@ -468,6 +469,7 @@ h2 {
     background-color: #fff;
     padding: 10px;
 }
+
 .container img{
     height: 25vh;
 }
